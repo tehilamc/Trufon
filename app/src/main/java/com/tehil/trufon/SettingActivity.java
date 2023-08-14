@@ -171,6 +171,8 @@ public class SettingActivity extends AppCompatActivity {
         startActivityForResult(pickContactIntent, requestCode);
     }
 
+
+
     // Permission request to access contacts
     private void requestContactsPermission() {
         if (ActivityCompat.shouldShowRequestPermissionRationale(this, Manifest.permission.READ_CONTACTS)) {
