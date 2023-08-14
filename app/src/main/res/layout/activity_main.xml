@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/edtPreiodID"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imgSentenceID"
+        android:layout_width="match_parent"
+        android:layout_height="263dp"
+        android:layout_weight="1"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/home_page" />
+
+    <EditText
+        android:id="@+id/edtMedicationID"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:hint="שם התרופה:"
+        android:inputType="textPersonName|textCapWords" />
+
+    <EditText
+        android:id="@+id/edtPeriodID"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:ems="10"
+        android:hint="תקופת נטילת התרופה:"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnTimeID"
+        android:layout_width="142dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:text="Select Time" />
+
+    <TextView
+        android:id="@+id/txvTimeID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnTimeID"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btnSaveID"
+        android:layout_width="142dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:text="save details" />
+
+    <Button
+        android:id="@+id/btnHistoryID"
+        android:layout_width="142dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/black"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:text="Medication history"
+        android:textColor="@color/white" />
+
+</LinearLayout>

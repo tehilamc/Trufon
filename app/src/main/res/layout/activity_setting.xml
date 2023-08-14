@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SettingActivity">
+
+    <ImageView
+        android:id="@+id/imgSmallLogoID2"
+        android:layout_width="69dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="0dp"
+        android:layout_weight="0"
+        app:srcCompat="@drawable/logo" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="-20dp"
+        android:layout_marginBottom="16dp"
+        android:layout_weight="0"
+        android:gravity="center"
+        android:text="Setting"
+        android:textColor="#3F51B5"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="-15dp"
+        android:layout_marginBottom="16dp"
+        android:layout_weight="0"
+        android:gravity="center"
+        android:text="Select two contacts:"
+        android:textColor="#3F51B5"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/selectContact1ButtonId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="0dp"
+        android:layout_weight="0"
+        android:gravity="center"
+        android:text="Select Contact 1" />
+
+    <TextView
+        android:id="@+id/contact1TxvId"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="16dp"
+        android:layout_weight="0"
+        android:background="@android:color/darker_gray"
+        android:padding="8dp"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/selectContact2ButtonId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="0"
+        android:text="Select Contact 2" />
+
+    <TextView
+        android:id="@+id/contact2TxvId"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="16dp"
+        android:layout_weight="0"
+        android:background="@android:color/darker_gray"
+        android:padding="8dp"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/saveContactsButton"
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="16dp"
+        android:layout_weight="0"
+        android:text="Save Contacts" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="0dp"
+        android:layout_weight="0"
+        android:gravity="center"
+        android:text="Select your gender:"
+        android:textColor="#3F51B5"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupGenderId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/radioButtonMaleId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:text="Male" />
+
+        <RadioButton
+            android:id="@+id/radioButtonFemaleId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female" />
+
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/saveGenderButtonId"
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:layout_weight="0"
+        android:text="Save Gender" />
+
+
+</LinearLayout>
+

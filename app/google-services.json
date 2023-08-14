@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "518541545091",
+    "project_id": "trufon-10db6",
+    "storage_bucket": "trufon-10db6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:518541545091:android:66a73cf0ae3b6ac74455b6",
+        "android_client_info": {
+          "package_name": "com.tehil.trufon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "518541545091-mbu0h29aufot3mca9c7p3mvtoteofm0m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCx51XGSUD3kVq5hd_OQZmmvEsQkYFvP_Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "518541545091-mbu0h29aufot3mca9c7p3mvtoteofm0m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
